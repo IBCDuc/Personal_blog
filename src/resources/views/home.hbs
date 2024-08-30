@@ -1,0 +1,18 @@
+<div class="container">
+    <div class = "homenar">
+        <h5>/home</h5>
+        
+    </div>
+        <!-- Phần Danh sách bài viết -->
+        <div class="article-list">
+            <h2>Personal Blog</h2>
+            <ul>
+                {{#each article }}
+                    <li>
+                        <a href="/article/{{id}}" style = "color: black; text-decoration: none;"><span class="article-title">{{title}}</span></a>
+                        <span class="article-date">{{publication}}</span>
+                    </li>
+                {{/each}}
+                
+            </ul>
+        </div>

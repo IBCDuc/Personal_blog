@@ -1,0 +1,21 @@
+<div class="container">
+    <div class = "homenar">
+        {{#each edit }}
+            <h5>/edit/{{id}}</h5>
+        {{/each}}
+        
+    </div>
+        <!-- Phần Danh sách bài viết -->
+
+<div class="article-contentt">
+    {{#each edit }}
+        <h2>Update article</h2>
+            <form action="/update/{{id}}" METHOD = "POST">
+                <input type="text" placeholder="Article Title" style="margin-bottom: 8px; width: 90%;" class = "tex" name = 'title'> <br> 
+                <input type="text" placeholder="Publishing Date" style="margin-bottom: 8px; width: 90%;" class = "tex" name = 'date'><br>
+                <textarea placeholder="Content" style="width: 90%; height: 220px;" class = "tex" name = 'content'></textarea><br>
+                <button class="update-button">Update</button>
+            </form>
+    {{/each}}
+</div>
+

@@ -1,0 +1,18 @@
+<div class="container">
+    <div class = "homenar">
+        {{#each articles}}
+            <h5>/article/{{id}}</h5>
+        {{/each}}
+        
+    </div>
+        <!-- Phần Danh sách bài viết -->
+{{#each articles}}
+<div class="article-content">
+            <h2>{{title}}</h2>
+            <p class="article-date">{{publication}}</p>
+            <p>{{content}}</p>
+        </div>
+{{/each}}
+    </div>
+</body>
+</html>

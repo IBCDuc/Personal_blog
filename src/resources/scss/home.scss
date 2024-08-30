@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'becool';
+    src: url(BeCoolRegular.ttf);
+    font-weight: 200;
+  }  
+
+* {
+    font-family: 'becool'; /* Sử dụng font chữ tương tự như hình ảnh */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.article-list, .article-content {
+    background-color: white;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 65%; /* Chia đôi màn hình */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+li span:hover {
+    color: #adb5bd;
+}
+.article-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article-date {
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.article-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-content p.article-date {
+    font-size: 14px;
+    color: #adb5bd;
+    margin-bottom: 20px;
+}
+.homenar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #000000; 
+}
+.hehe span:hover {
+    color: #adb5bd;
+}
+
+.article-contentt {
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 65%; /* Chia đôi màn hình */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-contentt h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tex {
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+.update-button {
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.article-content-auth {
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%; /* Chia đôi màn hình */
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 280px;
+}

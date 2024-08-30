@@ -1,0 +1,13 @@
+<div class="container">
+        <!-- Phần Danh sách bài viết -->
+<div class="article-content-auth">
+        <h2 style = 'text-align:center;'>Login</h2>
+            <form action="/auth-login" METHOD = "POST">
+                <input type="text" placeholder="Email" style="margin-bottom: 8px; width: 90%;" class = "tex" name = 'email'><br>
+                <input placeholder="password" style="width: 90%; height: 220px;" class = "tex" name = 'password'></input><br>
+                <button class="update-button">Submit</button>
+                {{#if message}}
+                    <h2>{{message}}</h2>
+                {{/if}}
+            </form>
+</div>

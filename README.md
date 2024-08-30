@@ -1,7 +1,7 @@
-##Personal blog
+## Personal blog
 A sample project in (https://roadmap.sh/projects/personal-blog) i made, used to write your personal unique blog.
 
-###Features
+### Features
 User session:
 - Read article
 
